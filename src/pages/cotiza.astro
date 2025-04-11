@@ -1,0 +1,54 @@
+---
+import Layout from "../layouts/layout.astro"
+---
+
+<Layout>
+  <section class="quote-hero">
+    <div class="container">
+      <h1>¡Cotiza tu sitio web en minutos!</h1>
+      <p>Queremos ayudarte a dar el siguiente paso con una solución a tu medida. Cuéntanos tu idea y te enviaremos una propuesta clara y rápida.</p>
+    </div>
+  </section>
+
+  <section class="quote-form">
+    <div class="container">
+      <h2>Formulario de cotización</h2>
+      <form action="/gracias" method="POST" class="form">
+        <label>
+          Nombre completo
+          <input type="text" name="nombre" placeholder="Tu nombre" required />
+        </label>
+        <label>
+          Correo electrónico
+          <input type="email" name="email" placeholder="Tu correo" required />
+        </label>
+        <label>
+          ¿Cuál es tu negocio o idea?
+          <textarea name="negocio" placeholder="Escríbenos sobre tu negocio" required></textarea>
+        </label>
+        <label>
+          ¿Qué tipo de página necesitas?
+          <select name="tipo" required>
+            <option value="">Selecciona una opción</option>
+            <option value="landing">Landing Page</option>
+            <option value="ecommerce">Tienda en línea</option>
+            <option value="blog">Blog / Contenido</option>
+            <option value="otro">Otro</option>
+          </select>
+        </label>
+        <button type="submit" class="btn">Solicitar cotización</button>
+      </form>
+    </div>
+  </section>
+
+  <section class="quote-why">
+    <div class="container">
+      <h2>¿Por qué cotizar con MexiWeb?</h2>
+      <ul>
+        <li>✔ Recibes una propuesta real, no un presupuesto genérico</li>
+        <li>✔ Atención personalizada por WhatsApp o correo</li>
+        <li>✔ Te ayudamos a elegir lo que realmente necesitas</li>
+      </ul>
+    </div>
+  </section>
+</Layout>
