@@ -1,48 +1,59 @@
-# Astro Starter Kit: Basics
+# 🚀 MexiWeb
 
-```sh
-npm create astro@latest -- --template basics
-```
+**MexiWeb** es una agencia digital que crea sitios web modernos, optimizados y visualmente atractivos. Este repositorio contiene el código fuente del sitio web oficial, desarrollado con Astro y preparado para desplegarse fácilmente en Netlify.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+---
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## 📦 Tecnologías
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+- ⚡ Astro
+- 🎨 TailwindCSS
+- 🌐 Netlify (Deploy)
+- 🧠 SEO básico optimizado
+- 🧩 Iconografía SVG y favicons personalizados
 
-## 🚀 Project Structure
+---
 
-Inside of your Astro project, you'll see the following folders and files:
+## 🚧 Cómo iniciar el proyecto en local
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+### 1. Clona el repositorio
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+```bash
+git clone https://github.com/tu-usuario/mexiweb.git
+cd mexiweb
+🚀 Cómo desplegar en Netlify
+Sube el proyecto a GitHub (si no lo hiciste ya).
 
-## 🧞 Commands
+Ingresa a Netlify y selecciona "Import from Git".
 
-All commands are run from the root of the project, from a terminal:
+Selecciona tu repositorio.
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+Configura los siguientes valores:
 
-## 👀 Want to learn more?
+Build command: npm run build
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Publish directory: dist
+
+¡Listo! Netlify construirá y desplegará tu sitio automáticamente.
+
+Asegúrate de tener el archivo netlify.toml en la raíz para una mejor configuración.
+
+📁 Estructura del proyecto
+pgsql
+Copiar
+Editar
+📁 public/              → Recursos públicos (iconos, imágenes, favicon, etc.)
+📁 src/
+ ┣ 📁 components/       → Componentes reutilizables de Astro
+ ┣ 📁 layouts/          → Layout base con slot global
+ ┣ 📁 pages/            → Todas las páginas de tu sitio (index, contacto, etc.)
+ ┣ 📁 styles/           → Archivos de estilos personalizados
+📄 astro.config.mjs     → Configuración de Astro
+📄 tailwind.config.js   → Configuración de Tailwind
+📄 netlify.toml         → Configuración de deploy para Netlify
+📄 package.json         → Dependencias y scripts
+✨ Créditos
+Proyecto desarrollado por Augusto Chinchurreta, fundador de MexiWeb, y creador de Stuntlife, comunidad biker con +40K seguidores.
+
+📬 Contacto
+¿Tienes un proyecto o idea? Escríbenos a: 9361173467
